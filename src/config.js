@@ -1,4 +1,6 @@
 const config = {
+    STRIPE_KEY: "pk_test_51I3DiqJIYLEQPAB8QIqJfYvv9l91W5atma0pwDmzNvUZjgKv43eWSrZAzFvu5CGWrEqRJbjGKnexMPt5vBBeoGys00KfUsrSfT",
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "us-east-1",
       BUCKET: "notes-api-bs3",
@@ -14,4 +16,4 @@ const config = {
       IDENTITY_POOL_ID: "us-east-1:062dcf39-3b8e-4b9e-8727-ef2c2dd58b09",
     },
   };
-  export default config;
+export default config;

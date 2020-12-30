@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Amplify } from "aws-amplify";
-import { config } from "./config";
+import { Amplify } from 'aws-amplify';
+import config from './config';
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,
